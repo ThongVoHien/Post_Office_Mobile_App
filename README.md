@@ -3,8 +3,7 @@
 ### Members: Thong Vo, You Cao, Muchen Ge
 
 ## Overview
-Our project is developed for the Post Office in St. Olaf. Now, the Post Office write all the package informations manually. Each carrier has a notebook,
-Student needs to sign each row for packages. Our app is aimed to create a management system for both PO workers and students.
+Our project is developed for the Post Office in St. Olaf. Now, the Post Office write all the package informations manually. Each carrier has a notebook and student needs to sign each row for packages. Our app is aimed to create a management system for both PO workers and students.
 Workers could add packages and change the status(signed/unsigned) for students and students have the ability to check their own packages and receive notifications when package has arrived.
 
 ## Quick Start
@@ -46,16 +45,6 @@ In our case, the address is http://rns202-5.cs.stolaf.edu/28425/ <br />
 ## Technologies
 We use react-native and expo for the app development and use Rest Api to do the backend server.
 Postgresql as database. We also use Postman for testing notification
-
-## Branch information
-Repository: git@stogit.cs.stolaf.edu:mca-i18/po.git
-    Branch master: main repository for the project which contains the correct and final version
-        vo1-5: repositories for testing and adding function:
-        vo4: add tracking feature
-        vo1: add verification feature
-        vo2: one version of the app
-        vo3: add notification and insert token, modify database, add communication between Server and front end
-        vo5: debug and test the final version
 
 ## Structure and functions
 ### SignIn page
